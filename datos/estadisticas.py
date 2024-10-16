@@ -1,5 +1,5 @@
 # estadisticas.py
-from equipos import equipos
+from datos.equipos import equipos
 
 def equipo_mas_goles():
     if not equipos:

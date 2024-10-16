@@ -1,6 +1,6 @@
 # partidos.py
-from equipos import equipos
-from jugadores import registrar_eventos_jugador
+from datos.equipos import equipos
+from datos.jugadores import registrar_eventos_jugador
 import os
 
 partidos = {}

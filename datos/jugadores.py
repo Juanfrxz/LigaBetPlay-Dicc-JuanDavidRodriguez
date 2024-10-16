@@ -1,5 +1,5 @@
 # jugadores.py
-from equipos import equipos
+from datos.equipos import equipos
 
 def registrar_jugador():
     nombre_equipo = input("Ingrese el nombre del equipo: ")

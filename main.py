@@ -1,10 +1,10 @@
 # main.py
                                                                 #JUAN DAVID RODRIGUEZ CARDENAS
 import os
-import equipos as equi
-import jugadores as jg
-import partidos as par
-import estadisticas as std
+import datos.equipos as equi
+import datos.jugadores as jg
+import datos.partidos as par
+import datos.estadisticas as std
 
 def limpiar_pantalla():
     os.system('cls' if os.name == 'nt' else 'clear')
